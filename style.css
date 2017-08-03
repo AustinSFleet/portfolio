@@ -70,24 +70,29 @@ section {
 	background: white;
 	color:grey;
 	margin:10px;
+	margin-left: -15px;
 	padding: 15px;
 	height: 10px;
 	z-index: 3;
+	text-align: center;
+	width: 100%;
+
 	
 	
 
 }
 
 #aside {
-	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-right: 45px;
 	margin: 10px;
 	margin-right: 45px;
 	margin-top: 15px;
 	background: white;
 	color: grey;
 	width: 300px;
-	height: 205px;
-		
+	height: 205px;		
 }
 
 .wrapper {
