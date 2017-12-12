@@ -1,54 +1,76 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>About | Austin Fleet</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js"></script>
+
+    <title>Austin Fleet</title>
 </head>
-
 <body>
-
-  <header id="masthead">
+    <nav class="navbar navbar-default inline-navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#">Austin Fleet</a>
+            </div>
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skill Sets</a></li>
+            <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="container">
-      <a href="index.html" id="logo">Austin Fleet</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="name">Austin Fleet</div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <img class="profPic" src="assets/photos/profpic.png" alt="picture of Austin">
+                </div>
+            <div class="col-md-3"></div>
+        </div>
+
+        <br>
+        <br>
+       
+        <div class="row">
+            <div class="col-md-6">
+                <p>
+                    Raised in West Texas, I've been in the Hill Country for the past three years.I’m a full-stack developer, and recently I’ve been in sales for the Austin residential construction industry, specifically dealing with new home construction. Being in sales has taught me many things, I’ve learned a lot about time-management, specifically scheduling my own time to accomplish multiple tasks in a set amount of time. I’m an extremely quick learner that has fallen in love with coding, programming, and creating new things. I love the pay-off of a well crafted UI and the challenge that comes with developing a powerhouse back-end! I'm ready to put my skills to the test with any challenge you may have. Currently I am located in Cedar Park and would love to connect with you and hear about your experience.
+                </p>
+            </div>
+            
+            <div class="col-md-6">
+                <p>                    
+                    Professionally, I have a lot of experience that you'll see in my <em>"skillsets"</em> tab. I have always worked in an agile development process, version control is always the top priority and I worked quite a bit with heroku as a deployment service. I always prefer to work on front-end development, and I would highly encourage you to check out my projects page. There you'll find projects that have been created in a strict three day time frame and for the most part the projects you'll find there were a day or two after learning the languages or frameworks implemented.
+                </p>
+            </div>
+        </div>
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
-
-      <p>Raised in West Texas, I've been in the Hill Country for the past three years and am looking to break into the world of web development! I'm very familiar with working solo, and in a team setting. I often excel in the back-end side of development but love making a UI that has users consistently coming back!</p>
-
-      <p>Recently I’ve been in sales for the Austin residential construction industry, specifically dealing with new home construction. Being in sales has taught me many things, I’ve learned a lot about time-management, specifically scheduling my own time to accomplish multiple tasks in a set amount of time. I have crafted my conversation to discern what a customer wants, and how to process that information into a complete product that they are happy with. I’m an extremely quick learner that has fallen in love with coding, programming, and creating new things.</p>
-
-    </section>
-
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-
-        <a href="https://github.com/AustinSFleet"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/austinsfleet/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="https://stackoverflow.com/users/8190773/austin-fleet?tab=profile"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-    </section>
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 2017 Austin Fleet
-    </div>
-  </footer>
+    
+    <footer>
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2017 Copyright: Austin Fleet
+            </div>
+        </div>
+    </footer>       
+    
 </body>
-
 </html>

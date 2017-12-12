@@ -1,0 +1,46 @@
+body {
+    background: black;
+    color: white;
+    font-size: 15px;
+    font-family: 'Asap', sans-serif;
+}
+
+.profPic {
+    margin-left:10%;
+}
+
+.batmat {
+    width:503px;
+}
+
+.jumbotron {
+    color: white;
+    font-size: 45px;
+    background-color: black;
+    margin-left: 35%;
+    margin-bottom:-50px;
+    margin-top:-50px;
+    font-family: 'Asap', sans-serif;
+
+    
+}
+
+.name {
+ font-size: 45px;
+ margin-left:138px;
+ margin-bottom:10px;
+ font-family: 'Asap', sans-serif;
+}
+
+.footer-copyright {
+    padding-top:50px;
+    padding-left:35%;
+}
+
+.nav.inline-navbar>li{
+    display: inline-block;
+}
+
+.headtext {
+    font-size: 25px;
+}
